@@ -1,0 +1,86 @@
+Repository Structure Verification
+================================
+
+This file confirms the repository structure as of the latest commit.
+
+ROOT DIRECTORY:
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── repository_structure.txt (this file)
+├── mcp_server.py
+├── proxy_server.py
+├── process_docs.py
+├── test_backend_direct.py
+├── file_list.txt
+
+AML RULES DATABASE:
+├── aml_rules_db/
+│   └── 92f269fa-7576-41b7-84ec-5f2626396493/
+│       ├── data_level0.bin
+│       ├── header.bin
+│       ├── length.bin
+│       └── link_lists.bin
+
+DOCUMENTS:
+├── documents/
+│   ├── AML Bibliography.pdf
+│   ├── AML(India).pdf
+│   ├── AML.pdf
+│   ├── IAML.pdf
+│   ├── India AML Framework Report.pdf
+│   ├── India's Anti-Money Laundering (AML) framework.pdf
+│   ├── India's Anti-Money Laundering (AML) Framework_ A C.pdf
+│   ├── India's Anti-Money Laundering(PMLA).pdf
+│   └── IRDAI.pdf
+
+MY AGENTS:
+├── my_agents/
+│   ├── __init__.py
+│   ├── agent.py
+│   ├── agent_invoke_utils.py
+│   ├── impact_agent.py
+│   ├── policy_agent.py
+│   └── tools/
+│       ├── __init__.py
+│       ├── aml_rag_tool.py
+│       ├── internal_data_tool.py
+│       └── mcp_customer_tool.py
+
+FRONTEND:
+├── frontend/
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public/
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── styles.css
+│   ├── vite.config.js
+│   └── cognitive-compliance-agent/
+│       ├── .gitignore
+│       ├── README.md
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── public/
+│       │   └── vite.svg
+│       ├── src/
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── assets/
+│       │   │   └── react.svg
+│       │   ├── index.css
+│       │   └── main.jsx
+│       └── vite.config.js
+
+Total files tracked: 50+
+Repository is complete and contains all project components. 
